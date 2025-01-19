@@ -129,12 +129,10 @@ This project is developped on the codebase of [MagicAnimate](https://github.com/
 Please cite our paper:
 
 ```bibtex
-@article{liu2024manganinja,
-  author  = {Zhiheng Liu and Ka Leong Cheng and Xi Chen and Jie Xiao and Hao Ouyang and Kai Zhu and Yu Liu and Yujun Shen
-             and Qifeng Chen and Ping Luo},
-  title   = {MangaNinja: Line Art Colorization with Precise Reference Following},
-  journal = {CoRR},
-  volume  = {abs/xxxx.xxxxx},
-  year    = {2024}
+@article{liu2025manganinja,
+  title={MangaNinja: Line Art Colorization with Precise Reference Following},
+  author={Liu, Zhiheng and Cheng, Ka Leong and Chen, Xi and Xiao, Jie and Ouyang, Hao and Zhu, Kai and Liu, Yu and Shen, Yujun and Chen, Qifeng and Luo, Ping},
+  journal={arXiv preprint arXiv:2501.08332},
+  year={2025}
 }
 ```
