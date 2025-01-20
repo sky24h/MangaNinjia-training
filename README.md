@@ -5,6 +5,9 @@ This repository represents the official implementation of the paper titled "Mang
 [![Website](docs/badge-website.svg)](https://johanan528.github.io/MangaNinjia/)
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2501.08332)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-929292)](https://creativecommons.org/licenses/by-nc/4.0/)
+<a href="https://huggingface.co/spaces/fffiloni/MangaNinja-demo"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)"></a>
+
+
 
 <p align="center">
     <a href="https://johanan528.github.io/"><strong>Zhiheng Liu*</strong></a>
@@ -35,8 +38,9 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 
 ![teaser](docs/teaser.gif)
 ## 📢 News
+* 2025-01-20: 🔥 MangaNinja is available on huggingface space, Thanks [Sylvain Filoni](https://x.com/fffiloni) ! You can found it [here](https://huggingface.co/spaces/fffiloni/MangaNinja-demo).
+* 2025-01-16: 🔥 MangaNinja is available on windows, 6G VRAM need Auto install and Download Model. Thanks [sdbds](https://x.com/bdsqlsz) ! You can found it [here](https://github.com/sdbds/MangaNinjia-for-windows). 
 * 2025-01-15: Inference code and paper are released.
-* 2025-01-16: MangaNinja is available on windows, 6G VRAM need Auto install and Download Model. Thanks @sdbds ! You can found it [here](https://github.com/sdbds/MangaNinjia-for-windows). 🔥
 * 🏃: We will open an issue area to investigate user needs and adjust the model accordingly. This includes more memory-efficient structures, data formats for line art (such as binary line art), and considering retraining MangaNinjia on a better foundation model (sd3,flux).
 
 ## 🛠️ Setup
