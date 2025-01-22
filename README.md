@@ -38,8 +38,8 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 
 ![teaser](docs/teaser.gif)
 ## 📢 News
-* 2025-01-20: 🔥 MangaNinja is available on huggingface space, Thanks [Sylvain Filoni](https://x.com/fffiloni) ! You can found it [here](https://huggingface.co/spaces/fffiloni/MangaNinja-demo).
-* 2025-01-16: 🔥 MangaNinja is available on windows, 6G VRAM need Auto install and Download Model. Thanks [sdbds](https://x.com/bdsqlsz) ! You can found it [here](https://github.com/sdbds/MangaNinjia-for-windows). 
+* 2025-01-20: 🔥 MangaNinja is available on huggingface space, Thanks [Sylvain Filoni](https://x.com/fffiloni) ! You can find it [here](https://huggingface.co/spaces/fffiloni/MangaNinja-demo).
+* 2025-01-16: 🔥 MangaNinja is available on windows, 6G VRAM need Auto install and Download Model. Thanks [sdbds](https://x.com/bdsqlsz) ! You can find it [here](https://github.com/sdbds/MangaNinjia-for-windows). 
 * 2025-01-15: Inference code and paper are released.
 * 🏃: We will open an issue area to investigate user needs and adjust the model accordingly. This includes more memory-efficient structures, data formats for line art (such as binary line art), and considering retraining MangaNinjia on a better foundation model (sd3,flux).
 
@@ -64,7 +64,7 @@ conda activate MangaNinjia
 ### ⚙️ Weights
 * You could download them from HuggingFace: [StableDiffusion](https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5), [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14), [control_v11p_sd15_lineart](https://huggingface.co/lllyasviel/control_v11p_sd15_lineart) and [Annotators](https://huggingface.co/lllyasviel/Annotators/blob/main/sk_model.pth)
 * You could download our [MangaNinjia model](https://huggingface.co/Johanan0528/MangaNinjia) from HuggingFace 
-* The downloaded checkpoint directory has the following structure:
+* The downloaded checkpoint directory should have the following structure:
 ```
 -- checkpoints
     |-- StableDiffusion
@@ -99,7 +99,7 @@ The default settings are optimized for the best result. However, the behavior of
   - `--point_ref_paths` and `--point_lineart_paths` (**optional**): Two 512x512 matrices are used to represent the matching points between the corresponding reference and line art with continuously increasing integers. That is, the coordinates of the matching points in both matrices will have the same values: 1, 2, 3, etc., while the values in other positions will be 0 (you can refer to the provided samples). Of course, we recommend using Gradio for point guidance.
 
 ## 🌱 Gradio
-First, modify `./configs/inference.yaml` to set the path of model weight. Afterwards, run the script:
+First, modify `./configs/inference.yaml` to set the path of model weights. Afterwards, run the script:
 ```bash
 python run_gradio.py
 ```
