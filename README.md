@@ -38,6 +38,7 @@ more complex tasks using point control. We hope that MangaNinja can accelerate t
 
 ![teaser](docs/teaser.gif)
 ## 📢 News
+* 2025-03-01: 🎉 MangaNinja has been accepted to CVPR 2025!
 * 2025-01-20: 🔥 MangaNinja is available on huggingface space, Thanks [Sylvain Filoni](https://x.com/fffiloni) ! You can find it [here](https://huggingface.co/spaces/fffiloni/MangaNinja-demo).
 * 2025-01-16: 🔥 MangaNinja is available on windows, 6G VRAM need Auto install and Download Model. Thanks [sdbds](https://x.com/bdsqlsz) ! You can find it [here](https://github.com/sdbds/MangaNinjia-for-windows). 
 * 2025-01-15: Inference code and paper are released.
