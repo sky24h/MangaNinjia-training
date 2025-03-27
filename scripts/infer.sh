@@ -16,8 +16,17 @@ input_reference_paths='./test_cases/hz0.png ./test_cases/hz1.png'
 input_lineart_paths='./test_cases/hz1.png ./test_cases/hz0.png'
 point_ref_paths='./test_cases/hz01_0.npy ./test_cases/hz01_1.npy'
 point_lineart_paths='./test_cases/hz01_1.npy ./test_cases/hz01_0.npy'
-cd ..
-python infer.py  \
+
+# Check for Python path through Poetry or directly
+timestamp=$(date +%s)
+if command -v uv &> /dev/null
+then
+python_path=$(uv run which python)
+else
+python_path=$(which python)
+fi
+
+$python_path infer.py  \
     --seed 0 \
     --denoise_steps 50 \
     --pretrained_model_name_or_path $pretrained_model_name_or_path --image_encoder_path $image_encoder_path \

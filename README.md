@@ -1,3 +1,37 @@
+
+# MangaNinja: Line Art Colorization with Precise Reference Following
+
+This is a forked repository from the official implementation of the paper titled "MangaNinja: Line Art Colorization with Precise Reference Following".
+
+### Update
+- [x] Add .gitignore file and remove unnecessary files.
+- [x] Add support to uv, and update dependencies to more recent versions.
+- [x] Instead of manually downloading the pretrained weights, you can now run a script to download them automatically.
+- [ ] Add training code.
+
+## Environment Setup
+Please install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you haven't already.
+
+Then simply run the following command to install the dependencies:
+```bash
+uv sync
+```
+
+Recommended Environment: Ubuntu 22.04, Python 3.10.12, CUDA 12.4, PyTorch 2.5.1, with A100 GPUs.
+
+
+## Pretrained Weights
+The pretrained weights can be downloaded by running the following command:
+```bash
+uv run python download.py
+```
+
+Instead, you can manually download the pretrained weights using the information provided in the original repository.
+
+
+
+Original README:
+----------------
 # MangaNinja: Line Art Colorization with Precise Reference Following
 
 This repository represents the official implementation of the paper titled "MangaNinja: Line Art Colorization with Precise Reference Following".
